@@ -1,0 +1,46 @@
+#wrapper{
+	width: 800px;
+	height: 480px;
+	background-color: #cee2e9;
+	border-radius: 10px;
+	padding-top:15px; 
+	padding-left:15px; 
+}
+
+#content{
+	width: 770px;
+	height: 450px;
+	border-radius: 10px;
+	border-style: solid;
+    border-width: 5px;
+    border-color: #f6844e;
+}
+
+h1{
+	color:#08353b;
+	display: inline-block;
+	margin-left: 10px;
+}
+h3{
+	color:#08353b;
+}
+form{
+	display: inline-block;
+}
+.form-control{
+	width: 85px;
+}
+
+#img{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #08353b;
+}
+input{
+	float: left;
+	margin-right: 10px;
+}

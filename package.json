@@ -1,0 +1,11 @@
+{
+  "name": "371final",
+  "version": "1.0.0",
+  "description": "final ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Hilliard",
+  "license": "ISC"
+}

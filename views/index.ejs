@@ -1,0 +1,44 @@
+<% include ./head.ejs %>
+
+<div id='wrapper'>
+<div id='content'>
+
+<h1>Smart Fridge - <h1 id="clockbox"></h1></h1>
+<br>
+
+
+<div id="img"></div>
+<h3 id="product-tit"></h3>
+<form>
+<h3 id="product-pri"></h3>
+<input name= "quantity" class="form-control" placeholder="Quantity">
+<submit type="button" class="btn btn-success" onClick = "
+	var prod = $('#product-tit').html();
+	$('#product-tit').html('Congratulations you have just purchesed '+prod);
+    $('input').hide();
+    $('.btn').hide();
+    $('#product-pri').hide();
+">Order This!</submit>
+</form>
+
+</div>
+
+
+<br>
+<br>
+
+<h2>Directions:</h2>
+<p>Say Hello Fridge</p>
+<p>Say Buy &#60;Whatever you want to buy&#62;</p>
+
+<h2>Video Demonstration:</h2>
+<a href="http://youtu.be/LYLMCU3wgxI">http://youtu.be/LYLMCU3wgxI</a>
+<br>
+<br>
+
+
+</body>
+
+
+
+</html>
